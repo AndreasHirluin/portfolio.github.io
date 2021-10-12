@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #9075d8;
+        stroke-width: 40px;
+      }
+
+      .cls-2 {
+        fill: #9075d8;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle id="Ellisse_1" data-name="Ellisse 1" class="cls-1" cx="500" cy="500" r="329"/>
+  <circle id="Ellisse_2" data-name="Ellisse 2" cx="500.5" cy="518.5" r="123.5"/>
+  <path id="Linea_1" data-name="Linea 1" class="cls-2" d="M175,445V395H825v50H175Z"/>
+</svg>
