@@ -1,0 +1,20 @@
+.presentation{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: baseline;
+    z-index: 10;
+    padding: 50px 0;
+}
+
+.presentation h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.presentation p{
+    font-size: 25px;
+    text-align: justify;
+}
