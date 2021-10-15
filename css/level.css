@@ -1,0 +1,31 @@
+.skills{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.skills ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.skills ul .level{
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.skillname{
+    min-width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.level progress{
+    min-width: 100px;
+    width: 100%;
+    max-width: 100%;
+}
+

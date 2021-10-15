@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./../css/style.css">
+    <link rel="stylesheet" href="./../css/level.css">
     <link rel="icon" href="./../img/logo.ico">
+    <script src="./../script/jquery.js"></script>
+    <script src="./../script/skills.json"></script>
+    <script src="./../script/level.js"></script>
     <title>Who Am I?</title>
 </head>
 <body>
@@ -25,10 +29,8 @@
         <div class="presentation glass">
         <h1>La mia storia (con la punteggiatura di merda)</h1>
         <hr>
-        <p>Mi chiamo Andreas Masia, un programmatore "provetto", insomma, ho un paio di anni di esperienza nella programmazione ad oggetti. 
-        Ho iniziato a 15 anni, ero molto in hype e non sapevo da dove iniziare. Infatti la scuola mi ha dato non solo un programma da seguire, ma anche la possibilità di uscire fuori dagli schemi, insomma, se facevi qualcosa a modo tuo (e migliore), ti facevano sentire grande! <br> <br>
-
-        Per non dire che ho avuto occasioni di correggere alcune verifiche dei miei colleghi, sotto i loro occhi ed ho "goduto" quando mettevo dei brutti voti (Scherzo ovviamente) (Per i colleghi: forse anche no). <br><br>
+        <p>Mi chiamo Andreas Masia e sono un programmatore "provetto". <br> Insomma, ho un paio di anni di esperienza nella programmazione ad oggetti. 
+        Ho iniziato a 15 anni, ero molto in hype e non sapevo da dove iniziare. Infatti la scuola mi ha dato non solo un programma da seguire, ma anche la possibilità di uscire fuori dagli schemi, insomma, se facevi qualcosa a modo tuo (e migliore), ti facevano sentire grande! <br><br>
         
         La mia vita è cambiata quando ho iniziato a studiare i database, ho gridato: "SONO UNA GENIALATA" - poi - "DEVO SPOSARE CHI HA INVENTATO QUESTA COSA". Insomma, ero in Hype per studiare cose nuove. <br> <br>
 
@@ -45,11 +47,22 @@
         <div class="glass">
             <h1>Le mie conoscenze (WIP)</h1>
             <hr>
-            <ul>
-                <li>HTML, CSS, Javascript</li>
-                <li>Java, C++</li>
-                <li>Photoshop, DaVinci Resolve</li>
+            <ul class="skills">
+                <ul class="weblist">
+                    <li class="level"><h4 class="skillname">HTML</h4></li>
+                    <li class="level"><h4 class="skillname">CSS</h4></li>
+                    <li class="level"><h4 class="skillname">Javascript</h4></li>
+                </ul>
+                <ul class="OOPlist">
+                    <li class="level"><h4 class="skillname">Java</h4></li>
+                    <li class="level"><h4 class="skillname">C++</h4></li>
+                </ul>
+                <ul class="applist">
+                    <li class="level"><h4 class="skillname">Photoshop</h4></li>
+                    <li class="level"><h4 class="skillname">DaVinci Resolve</h4></li>
+                </ul>                
             </ul>
+            </script>
         </div>
     </div>
 </body>
