@@ -1,28 +1,42 @@
 {
-    
-    "HTML" : {
-        "level" : 82
-    },
-    "CSS" : {
-        "level" : 90
-    },
-    "JAVASCRIPT" : {
-        "level" : 50
-    },
-    "SQL" : {
-        "level" : 92
-    },
-    "JAVA" : {
-        "level" : 92
-    },
-    "C++" : {
-        "level" : 30
-    },
-    "PHOTOSHOP" : {
-        "level" : 80
-    },
-    "DAVINCI RESOLVE" :{
-        "level" : 50
-    }    
-    
+    "WEB" : [
+        {
+            "title" : "HTML",
+            "level" : 82
+        },
+        {
+            "title" :"CSS",
+            "level" : 90
+        },
+        {
+            "title" : "JAVASCRIPT",
+            "level" : 50
+        },
+        {
+            "title" : "SQL",
+            "level" : 92
+        }
+    ],
+
+    "OOP Programming" : [
+        {
+            "title" : "JAVA",
+            "level" : 92
+        },
+        {
+            "title" : "C++",
+            "level" : 30
+        } 
+    ],
+
+    "Editors" : [
+        {
+            "title" : "PHOTOSHOP",
+            "level" : 80
+        },
+        {
+            "title" : "DAVINCI RESOLVE",
+            "level" : 50
+        } 
+    ]
 }
